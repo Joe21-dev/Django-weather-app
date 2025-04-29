@@ -51,11 +51,11 @@ pip install -r requirements.txt
 
 #### 4. Configure Environment
 
-Create a `.env` file or add to `settings.py`:
+Create a `.env` file in the main project folder:
 
-```python
-# settings.py
-WEATHER_API_KEY = 'your_visual_crossing_api_key'
+```python 
+# .env
+WEATHER_API_KEY = 'EXS5CPPVYCYSUZ4G39KNKNWG7'
 ```
 
 #### 5. Run Migrations
@@ -97,6 +97,7 @@ weather_app/
 │   ├── settings.py
 │
 ├── manage.py
+|-- .env # Create a.env file ,where to paste the API KEY
 ├── requirements.txt
 └── README.md
 ```
